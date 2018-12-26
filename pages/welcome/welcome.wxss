@@ -1,0 +1,38 @@
+page{
+  background-color: #fff0f0;
+}
+.container{
+  display:flex;
+  /* flex-direction:column 垂直 row:横着  row-reverse:自右向左 column-reverse 上下反向*/
+  flex-direction:column;
+  align-items: center;
+  /* background-color: #fff0f0; */
+}
+.avatar{
+  width:200rpx;
+  height:200rpx;
+  margin-top:100rpx;
+  margin:center;
+
+}
+.motto{
+  margin-top:8%;
+  font-size:38rpx;
+  font-weight:bold;
+  color:#9F4311;
+}
+.journey-container{
+  margin-top:10%;
+  border:1px solid #EA5A3C;
+  width:200rpx;
+  height:80rpx;
+  border-radius:5px;
+  text-align: center;
+}
+.journey{
+  font-size:28rpx;
+  font-weight:bold;
+  line-height:35rpx;
+  color:#EA5A3C;
+  margin-top:2%;
+}

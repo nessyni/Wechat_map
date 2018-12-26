@@ -1,0 +1,8 @@
+<view class="container">
+  <image class="avatar" src="/images/avatar/avatar-1.png"></image>
+  <text class="motto">welcome to WeChat</text>
+  <view catchtap="onTapJump" class="journey-container">
+    <text class="journey">开启微信之旅</text>
+    <!-- <navigator url="../index/index" open-type='redirect'>开启微信</navigator> -->
+  </view>
+</view>
